@@ -1,0 +1,39 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<h1 id="title"> 
+  Take a Survey Win now!
+</h1>
+<p id="description"> By attending this seminar you have a chance to win big with the lottery win streak! </p>
+
+<form id="survey-form" action="/action_page.php" target"_blank">
+  
+  <label for="fname" id="name-label"> First name: </label> <br>
+  <input type="text" id ="name" name="fname" placeholder="jacob" required> <br>
+  
+  <label for="email" id="email-label"> Email address:</label><br>
+  <input type="email" id="email" name="email"  placeholder="GoPro@gmail.com" required> <br>
+  
+  <label for="lnumber" id="number-label"> Enter Phone number: </number> <br>
+  <input type="number" id="number" name="lnumber" placeholder="555-555-5555" min="0" max="9999999999" required> <br> 
+  
+  <label for"cars"> Choose a car: </label> <br>
+  <select name="cars" id="dropdown" required>
+    <option value= "volvo" > Volvo </option>
+    <option value="Ford"> Ford </option>
+    <option value="Kia"> Kia </option>
+    <option value ="saab"> Saab </option>  </select> <br>
+  
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male"> Male </label> <br>
+  <input type="radio" id ="femail" name="gender" value="female">
+  <label for="female"> Female </label> <br>
+  <input type="checkbox" id="vehicle1" value="Bike"> 
+  <label for="vehicle1"> Bike1 </label> <br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value ="Car">
+  <label for"vehicle2"> Car1 </label><br>
+  <br>
+  <label for="SurveyWin">A summary for what we stand for: </label> <br>
+  <textarea id="SurveyWin" name="SurveyWin" rows="4"cols="50">Here at this establishment you will be able to take surveys and win big! </textarea>
+  
+  <br> <br><input type="submit" value="Submit" id="submit">
+</form> 
