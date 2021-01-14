@@ -1,0 +1,15 @@
+/* Got serious help from Florin pop from https://www.youtube.com/watch?v=iGWei_0EJIc&t=149s&ab_channel=FlorinPop  */
+
+body{
+  background-color: #2ecc71;
+}
+
+.wrapper {
+/*   background-color: pink; */
+  height: 100vh;
+}
+
+.box {
+/*   background-color:purple; */
+    background-color: #fff;
+}
